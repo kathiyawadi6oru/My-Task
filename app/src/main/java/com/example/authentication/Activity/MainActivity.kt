@@ -460,3 +460,25 @@ class MainActivity : AppCompatActivity(),dataAdapter.datalistener{
 }
 
 
+
+
+
+
+
+
+
+
+
+/*
+# My-Tasks
+Add your task and complete it.
+![alt text](https://github.com/kathiyawadi6oru/My-Tasks/blob/[branch]/image.jpg?raw=true)
+Authentication with Email password,google sign in , phone number of firebase.
+
+Data display in recyclerview,floating button to add data,left or right swipe to delete data and undo in seekbar.
+
+Also use of navigation drawer ,there are available user profile task ,completed task , logout and also know about us.
+
+Use a Ads of many Types like that banner,interstitial and reward video Ad.*/
+
+
