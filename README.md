@@ -2,7 +2,8 @@
 
 Add your task and complete it.
 
-![Splash_Screen](https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg?)
+<img src="https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg" width="256" height="256" title="Github Logo">
+
 
 Authentication with Email password,google sign in , phone number of firebase.
 
