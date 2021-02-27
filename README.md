@@ -2,6 +2,8 @@
 
 Add your task and complete it.
 
+![Splash_Screen](https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg?raw=true)
+
 Authentication with Email password,google sign in , phone number of firebase.
 
 Data display in recyclerview,floating button to add data,left or right swipe to delete data and undo in seekbar.
