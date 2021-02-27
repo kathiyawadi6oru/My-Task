@@ -2,7 +2,7 @@
 
 Add your task and complete it.
 
-![Splash_Screen](https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg?raw=true)
+![Splash_Screen](https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg?=100x20)
 
 Authentication with Email password,google sign in , phone number of firebase.
 
