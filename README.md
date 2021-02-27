@@ -3,7 +3,7 @@
 Add your task and complete it.
 
 ![Splash_Screen](https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg?=100x20)
-<img src="https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg." data-canonical-src="https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg" width="20" height="40" />
+<img src="https://github.com/kathiyawadi6oru/Project-Images/blob/master/My%20Tasks/splash%20screen.jpg."  width="200" height="400" />
 
 Authentication with Email password,google sign in , phone number of firebase.
 
