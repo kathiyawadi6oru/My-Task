@@ -83,10 +83,12 @@ class MainActivity : AppCompatActivity(),dataAdapter.datalistener{
                 R.id.task -> {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
+                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                 }
                 R.id.tcomplete -> {
                     val intent = Intent(this, completedtask::class.java)
                     startActivity(intent)
+                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                 }
                 R.id.menu_logout -> {
                     AuthUI.getInstance()
@@ -110,6 +112,7 @@ class MainActivity : AppCompatActivity(),dataAdapter.datalistener{
             intent = Intent(this, loginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
             finish()
         }
 
@@ -196,6 +199,7 @@ class MainActivity : AppCompatActivity(),dataAdapter.datalistener{
             drawer!!.closeDrawer(GravityCompat.START)
         } else {
             super.onBackPressed()
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right)
         }
     }
 

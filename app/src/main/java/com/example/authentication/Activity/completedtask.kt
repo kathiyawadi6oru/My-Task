@@ -95,6 +95,7 @@ class completedtask : AppCompatActivity(), cdataAdapter.cdatalistener {
             drawer!!.closeDrawer(GravityCompat.START)
         } else {
             super.onBackPressed()
+            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right)
         }
     }
 

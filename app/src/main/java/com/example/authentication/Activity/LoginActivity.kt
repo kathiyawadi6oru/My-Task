@@ -149,6 +149,7 @@ class loginActivity : AppCompatActivity() {
                 .build()
 
             startActivityForResult(intent, REQUEST_CODE)
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
 
         override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -169,6 +170,7 @@ class loginActivity : AppCompatActivity() {
                     val intent = Intent(this, MainActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
+                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     // ...
                 } else {
                     // Sign in failed. If response is null the user canceled the
